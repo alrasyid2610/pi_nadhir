@@ -1,0 +1,104 @@
+[10-Sep-2021 15:14:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[10-Sep-2021 15:14:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/forexaca/public_html/routes/web.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/web.php on line 26
+[11-Sep-2021 10:42:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 10:42:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Broadcast' not found in /home/forexaca/public_html/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/channels.php on line 16
+[11-Sep-2021 11:05:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17
+[11-Sep-2021 11:05:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17
+[11-Sep-2021 11:05:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17
+[11-Sep-2021 11:05:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17
+[11-Sep-2021 11:05:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17
+[11-Sep-2021 11:05:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17
+[11-Sep-2021 11:05:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Artisan' not found in /home/forexaca/public_html/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/routes/console.php on line 17

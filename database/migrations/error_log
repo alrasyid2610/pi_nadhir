@@ -1,0 +1,140 @@
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:46:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:46:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:46:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:46:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_14_135452_create_articles_table.php on line 7
+[11-Sep-2021 10:46:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2021_07_18_080428_create_comments_table.php on line 7
+[11-Sep-2021 10:46:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:46:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:46:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7
+[11-Sep-2021 10:47:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Sep-2021 10:47:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Sep-2021 10:47:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Sep-2021 10:47:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Sep-2021 10:47:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Sep-2021 10:47:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[11-Sep-2021 10:47:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[11-Sep-2021 10:47:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/forexaca/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 7

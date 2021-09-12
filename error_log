@@ -1,0 +1,7 @@
+[12-Sep-2021 06:18:35 UTC] PHP Warning:  symlink(): File exists in /home/forexaca/public_html/symlinkexample.php on line 5
+[12-Sep-2021 06:18:35 UTC] PHP Warning:  symlink(): File exists in /home/forexaca/public_html/symlinkexample.php on line 5
+[12-Sep-2021 06:18:36 UTC] PHP Warning:  symlink(): File exists in /home/forexaca/public_html/symlinkexample.php on line 5
+[12-Sep-2021 06:20:54 UTC] PHP Warning:  require(/home/forexaca/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/forexaca/public_html/index.php on line 34
+[12-Sep-2021 06:20:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/forexaca/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/forexaca/public_html/index.php on line 34
+[12-Sep-2021 06:20:56 UTC] PHP Warning:  require(/home/forexaca/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/forexaca/public_html/index.php on line 34
+[12-Sep-2021 06:20:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/forexaca/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/forexaca/public_html/index.php on line 34
