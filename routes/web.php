@@ -69,9 +69,7 @@ Route::post('/logout', [LogoutController::class, 'store'])->name('logout');
 // Kontak
 Route::post('/submit_kontak', [kontakController::class, 'store'])->name('kontak.store');
 Route::delete('/kontak/{id}', [kontakController::class, 'destroy'])
-->middleware([
-  'checkAdmin'
-])->name('kontak.destroy');
+->name('kontak.destroy');
 Route::get('/kontak', [kontakController::class, 'index'])
 ->middleware([
   'checkAdmin'

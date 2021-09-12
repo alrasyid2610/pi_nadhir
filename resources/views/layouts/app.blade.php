@@ -25,7 +25,7 @@
                     <h5>Tentang Kami</h5>
                     <ul>
                         <li></li>
-                        <li><a href="#">Hubungi Kami</a></li>
+                        <li><a href="{{ route('contact') }}">Hubungi Kami</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">

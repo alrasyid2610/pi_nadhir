@@ -13,7 +13,7 @@
         <!-- menu profile quick info -->
         <div class="profile clearfix">
             <div class="profile_pic">
-                <img src=" {{ asset('/admin/production/images/img.jpg') }}  " alt="..." class="img-circle profile_img">
+                <img src=" {{ asset('/img/user.png') }}  " alt="..." class="img-circle profile_img">
             </div>
             <div class="profile_info">
                 <span>Selamat Datang,</span>
@@ -37,23 +37,23 @@
 						</ul>
 					</li> --}}
 
-					@if (auth()->user()->role == 'admin')
-						
-						<li><a><i class="fa fa-pencil"></i> Artikel <span class="fa fa-chevron-down"></span></a>
-							<ul class="nav child_menu">
-								<li><a href="{{ route('admin_system.index') }}">Daftar Konten</a></li>
-								<li><a href="{{ route('artikel.create') }}">Tambah Konten</a></li>
-							</ul>
-						</li>
+                    @if (auth()->user()->role == 'admin')
 
-						<li>
-							<a><i class="fa fa-user"></i> Users <span class="fa fa-chevron-down"></span></a>
-							<ul class="nav child_menu">
-								<li><a href="{{ route('admin_user.index') }}">Daftar User</a></li>
-								{{-- <li><a href="{{ route('artikel.create') }}">Tambah Konten</a></li> --}}
-							</ul>
-						</li>
-					@endif
+                        <li><a><i class="fa fa-pencil"></i> Artikel <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <li><a href="{{ route('admin_system.index') }}">Daftar Konten</a></li>
+                                <li><a href="{{ route('artikel.create') }}">Tambah Konten</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a><i class="fa fa-user"></i> Users <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <li><a href="{{ route('admin_user.index') }}">Daftar User</a></li>
+                                {{-- <li><a href="{{ route('artikel.create') }}">Tambah Konten</a></li> --}}
+                            </ul>
+                        </li>
+                    @endif
 
                     <li><a><i class="fa fa-pencil"></i> Daftar Kontak <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
