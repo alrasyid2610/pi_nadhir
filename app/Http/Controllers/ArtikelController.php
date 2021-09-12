@@ -109,7 +109,7 @@ class ArtikelController extends Controller
 
         $data_comment = Comment::where('article_id', '=', $id);
 
-        return view('artikel.show', ['tab_name' => 'show data', 'article' => $article, 'comments' => $data_comment]);
+        return view('artikel.show', ['tab_name' => "Forex Academy | " . $article->title, 'article' => $article, 'comments' => $data_comment]);
     }
 
     /**
