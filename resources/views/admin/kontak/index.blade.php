@@ -1,5 +1,27 @@
 @extends('layouts.main')
 @section('content')
+    <div class="modal fade" id="confirmDelete" role="dialog" aria-labelledby="confirmDeleteLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+
+                <div class="modal-body">
+                    <p>Are you sure about this ?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="confirm">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-md-12 col-sm-12 ">
@@ -40,9 +62,9 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($data as $item)
+                                        @foreach ($data as $key => $item)
                                             <tr>
-                                                <td>1</td>
+                                                <td>{{ $key + 1 }}</td>
                                                 <td>{{ $item->name }}</td>
                                                 <td>{{ $item->email }}</td>
                                                 <td>{{ $item->subject }}</td>
@@ -50,7 +72,14 @@
                                                 <td>{{ $item->status }}</td>
                                                 <td>
                                                     <a class="btn btn-primary btn-sm text-white" href="{{ route('daftar_kontak.index.jawab_pertanyaan', $item->id) }}">Jawaban Pertanyaan</a>
-                                                    <button class="btn btn-danger btn-sm">Delete Pertanyaan</button>
+
+                                                    <form method="POST" action="{{ route('kontak.destroy', $item->id) }}" accept-charset="UTF-8" style="display:inline">
+                                                        @csrf
+                                                        @method('DELETE')
+                                                        <button class="btn btn-sm btn-danger" type="button" data-toggle="modal" data-target="#confirmDelete" data-title="Delete Pertanyaan" data-message="Are you sure you want to delete this pertanyaan ?">
+                                                            <i class="glyphicon glyphicon-trash"></i> Delete
+                                                        </button>
+                                                    </form>
                                                 </td>
                                             </tr>
                                         @endforeach
@@ -69,27 +98,22 @@
 @endsection
 
 @section('script')
-    <script src="{{ asset('js/ckeditor/ckeditor.js') }}"></script>
     <script>
-        var konten = document.getElementById("article");
-        CKEDITOR.replace(konten, {
-            language: 'en-gb',
-            extraPlugins: 'language',
-            extraPlugins: 'easyimage',
-            cloudServices_tokenUrl: 'https://example.com/cs-token-endpoint',
-            cloudServices_uploadUrl: 'https://your-organization-id.cke-cs.com/easyimage/upload/'
+        // <!-- Dialog show event handler -->
+        $('#confirmDelete').on('show.bs.modal', function(e) {
+            $message = $(e.relatedTarget).attr('data-message');
+            $(this).find('.modal-body p').text($message);
+            $title = $(e.relatedTarget).attr('data-title');
+            $(this).find('.modal-title').text($title);
+
+            // Pass form reference to modal for submission on yes/ok
+            var form = $(e.relatedTarget).closest('form');
+            $(this).find('.modal-footer #confirm').data('form', form);
         });
-        $(".custom-file-input").on("change", function() {
-            var fileName = $(this).val().split("\\").pop();
-            if (fileName == '') {
-                $(this).siblings(".custom-file-label").addClass("selected").html("Choose file...");
-            } else {
-                $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-            }
+
+        // <!-- Form confirm (yes/ok) handler, submits form -->
+        $('#confirmDelete').find('.modal-footer #confirm').on('click', function() {
+            $(this).data('form').submit();
         });
-        // CKEDITOR.config.allowedContent = true;
-        // CKEDITOR.editorConfig = function( config ) {
-        //  config.extraPlugins = 'language';
-        // };
     </script>
 @endsection
