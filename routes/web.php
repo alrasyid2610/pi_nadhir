@@ -27,10 +27,10 @@ Route::view('/', 'home', ['tab_name' => 'Home'])->name('home');
 
 // Route::view('/artikel', 'artikel', ['tab_name' => 'Artikel'])->name('artikel');
 Route::resource('/artikel', ArtikelController::class);
-Route::get('/artikel/create')->
-middleware([
-  'checkAdmin'
-])->name('artikel.create');
+// Route::get('/artikel/create')->
+// middleware([
+//   'checkAdmin'
+// ])->name('artikel.create');
 Route::get('/berita', [ArtikelController::class, 'index_berita'])->name('berita');
 Route::get('/analisa', [ArtikelController::class, 'index_analisa'])->name('analisa');
 
