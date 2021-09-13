@@ -36,7 +36,7 @@
                                         {{-- <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="password" style="margin: 17px;"></div> --}}
                                         <div class="form-group">
                                             <div class="input-group">
-                                                <input type="password" name="password" id="password" class="form-control" data-toggle="password" >
+                                                <input type="password" name="password" id="password" class="form-control" data-toggle="password"  placeholder="Password">
                                                 <div class="input-group-append">
                                                     <span class="input-group-text">
                                                     <i class="fa fa-eye"></i>

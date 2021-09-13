@@ -82,9 +82,6 @@
                                                 border border-danger
                                             @enderror
                                                 " data-toggle="password" type="password" id="examplePasswordInput" placeholder="Kata Sandi" name="password">
-                                            @error('password')
-                                                <small>{{ $message }}</small>
-                                            @enderror
                                         {{-- <input type="password" name="password" id="password" class="form-control" data-toggle="password" > --}}
                                         <div class="input-group-append">
                                             <span class="input-group-text">
@@ -92,6 +89,9 @@
                                             </span>
                                         </div>
                                     </div>
+                                    @error('password')
+                                            <small>{{ $message }}</small>
+                                        @enderror
 
                                 </div>
 
