@@ -21,7 +21,7 @@
                     </li> --}}
                         <li class="nav-item"><a class="nav-link" href="{{ route('admin_system.index') }}">Dashboard</a></li>
                     @elseif(auth()->user()->role == 'user')
-                        <li class="nav-item"><a class="nav-link" href="{{ route('dashboard.index') }}">Dashboard User</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('dashboard.index') }}">Dashboard member</a></li>
                     @endif
                     <li class="nav-item">
                         <form action="{{ route('logout') }}" method="POST">

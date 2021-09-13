@@ -13,7 +13,7 @@
 
 
                 <div class="modal-body">
-                    <p>Are you sure about this ?</p>
+                    <p>Anda Yakin ?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
@@ -27,7 +27,7 @@
         <div class="col-md-12 col-sm-12 ">
             <div class="x_panel">
                 <div class="x_title">
-                    <h2>Daftar Kontak <small></small></h2>
+                    <h2>Daftar kontak <small></small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                         <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                         </li>
@@ -42,7 +42,6 @@
                         </li>
                     </ul>
                     <div class="clearfix"></div>
-                    {{-- <h3>Form Input <small style="font-size: 12px">Input data according to shipping documents</small></h3> --}}
                 </div>
 
                 <div class="x_content">
@@ -63,7 +62,7 @@
                                                     <th>Pertanyaan</th>
                                                     <th>Jawaban</th>
                                                     <th>Status</th>
-                                                    <th>Action</th>
+                                                    <th>Aksi</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -80,8 +79,8 @@
                                                             <form method="POST" action="{{ route('kontak.destroy', $item->id) }}" accept-charset="UTF-8" style="display:inline">
                                                                 @csrf
                                                                 @method('DELETE')
-                                                                <button class="btn btn-sm btn-danger" type="button" data-toggle="modal" data-target="#confirmDelete" data-title="Delete Pertanyaan" data-message="Are you sure you want to delete this pertanyaan ?">
-                                                                    <i class="glyphicon glyphicon-trash"></i> Desafsaflete
+                                                                <button class="btn btn-sm btn-danger" type="button" data-toggle="modal" data-target="#confirmDelete" data-title="Delete Pertanyaan" data-message="Apakah Anda Yakin Menghapus Pertanyaan Ini?">
+                                                                    <i class="glyphicon glyphicon-trash"></i> Hapus
                                                                 </button>
                                                             </form>
                                                         </td>

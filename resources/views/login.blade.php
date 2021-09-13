@@ -34,7 +34,6 @@
                                         </div><button class="btn btn-primary btn-block text-white btn-user" type="submit" style="margin: 17px;">Login</button>
                                         <hr>
                                     </form>
-                                    <div class="text-center"><a class="small" href="{{ route('index_forgot') }}">Forgot Password?</a></div>
                                     <div class="text-center"><a class="small" href="{{ route('register') }}">Belum Punya Akun? Buat Disini!</a></div>
                                 </div>
                             </div>
