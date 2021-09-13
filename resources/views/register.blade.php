@@ -75,29 +75,46 @@
 
                                 <div class="form-group">
                                     <label for="">Kata Sandi</label>
-                                    <input class="form-control form-control-user
+                                    
+                                    <div class="input-group">
+                                        <input class="form-control form-control-user
                                             @error('password')
                                                 border border-danger
                                             @enderror
-                                        " type="password" id="examplePasswordInput" placeholder="Kata Sandi" name="password">
-                                    @error('password')
-                                        <small>{{ $message }}</small>
-                                    @enderror
+                                                " data-toggle="password" type="password" id="examplePasswordInput" placeholder="Kata Sandi" name="password">
+                                            @error('password')
+                                                <small>{{ $message }}</small>
+                                            @enderror
+                                        {{-- <input type="password" name="password" id="password" class="form-control" data-toggle="password" > --}}
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                            <i class="fa fa-eye"></i>
+                                            </span>
+                                        </div>
+                                    </div>
 
                                 </div>
 
                                 <div class="form-group">
-                                    <input class="form-control form-control-user
-                                                @error('password')
-                                                    border border-danger
-                                                @enderror
-                                            " type="password" id="exampleRepeatPasswordInput" placeholder="Ketik Ulang Kata Sandi" name="password_confirmation">
+                                    <div class="input-group">
+                                        <input class="form-control form-control-user
+                                                    @error('password')
+                                                        border border-danger
+                                                    @enderror
+                                                " type="password" id="exampleRepeatPasswordInput" placeholder="Ketik Ulang Kata Sandi" name="password_confirmation" data-toggle="password">
+                                        {{-- <input type="password" name="password" id="password" class="form-control" data-toggle="password" > --}}
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                            <i class="fa fa-eye"></i>
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <button class="btn btn-primary btn-block text-white btn-user" type="submit">Kirim</button>
                                 <hr>
                             </form>
-                            <div class="text-center"><a class="small" href="{{ route('index_forgot') }}">Forgot Password?</a></div>
+                            {{-- <div class="text-center"><a class="small" href="{{ route('index_forgot') }}">Forgot Password?</a></div> --}}
                             <div class="text-center"><a class="small" href="{{ route('login') }}">sudah punya akun, silahkan login</a></div>
                         </div>
                     </div>

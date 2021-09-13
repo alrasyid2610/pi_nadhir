@@ -17,7 +17,7 @@ class RegisterController extends Controller
             'jawaban' => 'required',
             'last_name' => 'required|min:5',
             'email' => 'required|email',
-            'password' => 'required|confirmed'
+            'password' => 'required|confirmed|min:8'
         ]);
 
         User::create([

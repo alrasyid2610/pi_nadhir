@@ -38,6 +38,8 @@
 <script src=" {{ asset('/admin/vendors/bootstrap-daterangepicker/daterangepicker.js') }} "></script>
 
 <script src=" {{ asset("/admin/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js") }}"></script>
+<script src="{{ asset("/js/bootstrap-show-password.js") }}"></script>
+
 
 @yield('data-table')
 @yield('technical_document_input_goods');

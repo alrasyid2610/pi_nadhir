@@ -5,4 +5,5 @@
 	<script src="{{ asset('/js/smoothproducts.min.js') }}"></script>
 	<script src="{{ asset('/js/theme.js') }}"></script>
 	<script src="{{ asset('/js/moment.js') }}"></script>
+	<script src="{{ asset("/js/bootstrap-show-password.js") }}"></script>
 	@yield('script')

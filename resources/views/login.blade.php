@@ -26,12 +26,28 @@
                                         @enderror --}}
 
                                     </div>
-                                    <form class="user" action="{{ route('login') }}" method="post">
+                                    <form class="user" action="{{ route('login') }}" method="post" style="margin-left: 25px">
                                         @csrf
-                                        <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan Alamat Email..." name="email" style="margin: 17px;"></div>
-                                        <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="password" style="margin: 17px;"></div>
                                         <div class="form-group">
-                                        </div><button class="btn btn-primary btn-block text-white btn-user" type="submit" style="margin: 17px;">Login</button>
+                                            <div class="iput-group">
+                                                <input class="form-control" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan Alamat Email..." name="email">
+                                            </div>
+                                        </div>
+                                        {{-- <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="password" style="margin: 17px;"></div> --}}
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input type="password" name="password" id="password" class="form-control" data-toggle="password" >
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                    <i class="fa fa-eye"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                        </div>
+                                        <button class="btn btn-primary btn-block text-white btn-user" type="submit">Login</button>
                                         <hr>
                                     </form>
                                     <div class="text-center"><a class="small" href="{{ route('register') }}">Belum Punya Akun? Buat Disini!</a></div>
